@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    position: absolute;
+}
+#wrapper{
+    width: 108rem;
+    height: 343.6875rem;
+    background: #FFF;
+}
+#kracademy-logo{
+    width: 17.8125rem;
+    height: 5.1875rem;
+    flex-shrink: 0;
+    background: url(images/KRACADEMY\ 3.jpg), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#onlinecourses{
+   width: 11.1875rem;
+   height: 2.75rem;
+   flex-shrink: 0;
+   color: #9a8585;
+   font-family: Product Sans;
+   font-size: 1.25rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+#certifications{
+width: 11.1875rem;
+height: 2.75rem;
+flex-shrink: 0;
+color: #000;
+font-family: Product Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#rectangle1{
+    width: 108.75rem;
+    height: 37.125rem;
+    flex-shrink: 0;
+    background: #10027E;
+}
+#text1{
+    width: 42.8125rem;
+    height: 11.375rem;
+    flex-shrink: 0;
+    color: #FFF;
+font-family: Product Sans;
+font-size: 5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 0%; /* 0rem */
+letter-spacing: -0.325rem;
+
+}
+#img1{
+    width: 64.875rem;
+height: 32.6875rem;
+flex-shrink: 0;
+background: url(images/image\ 1.jpg), lightgray 50% / cover no-repeat;
+}
