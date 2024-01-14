@@ -101,7 +101,7 @@ letter-spacing: -5.2px;
 
 }
 .white{
-    color: #FFF;
+color: #FFF;
 font-family: Product Sans;
 font-size: 80px;
 font-style: normal;
@@ -110,12 +110,11 @@ line-height: 1;
 letter-spacing: -5.2px;
 }
 .para{
-    position: absolute;
-    top: 451px; 
-    left: 91px;
-    width: 706px;
+position: absolute;
+top: 451px; 
+left: 91px;
+width: 706px;
 height: 75px;
-
 flex-shrink: 0;
 color: #FFF;
 font-family: Product Sans;
@@ -124,4 +123,40 @@ font-style: normal;
 font-weight: 400;
 line-height: 110.3%; /* 35.296px */
 letter-spacing: -0.64px;
+}
+.learnmore{
+position: absolute;
+top:553px;
+left:91px;
+width: 256px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #FF7E00;
+color: #FFF;
+text-align: center;
+font-family: Product Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+ .course{
+position: absolute;
+top:553px;
+left: 359px;
+width: 256px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #10027E;
+border: 3px solid #FFF;
+color: #FFF;
+text-align: center;
+font-family: Product Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
 }
