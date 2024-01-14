@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -78,6 +80,7 @@ main {
     height: 523px;
     flex-shrink: 0;
     background: url(./images/image\ 1.jpg), lightgray 50% / cover no-repeat;
+    object-fit: cover;
 }
 
 .herotxt {
@@ -240,7 +243,6 @@ main {
     position: absolute;
     top: 544px;
     left: 518px;
-
 }
 
 .card2 {
@@ -289,4 +291,231 @@ main {
     position: absolute;
     top: 544px;
     left: 542px;
+}
+
+.rectangle2 {
+    position: absolute;
+    top: 1985px;
+    left: 12px;
+    right: -12px;
+    width: 1728px;
+    height: 752px;
+    flex-shrink: 0;
+    background: #e4f1ff;
+}
+
+.rect2img {
+    position: absolute;
+    top: 290px;
+    left: 113px;
+    width: 583px;
+    height: 171px;
+    flex-shrink: 0;
+}
+
+.rect2info {
+    position: absolute;
+    top: 133px;
+    left: 781px;
+    width: 815px;
+    height: 294px;
+    flex-shrink: 0;
+    color: #10027e;
+    font-family: Product Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: fit-content;
+}
+
+.getstart {
+    position: absolute;
+    top: 569px;
+    left: 838px;
+    width: 315px;
+    height: 69px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #ff7e00;
+    color: #10027e;
+    text-align: center;
+    font-family: Product Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.svg1 {
+    position: absolute;
+    top: 571px;
+    left: 583px;
+}
+
+.svg2 {
+    position: absolute;
+    top: 101px;
+    left: 59px;
+}
+
+.svg3 {
+    position: absolute;
+    top: 146px;
+    left: 1596px;
+}
+
+.svg4 {
+    position: absolute;
+    top: 607.82px;
+    left: 1595.82px;
+}
+
+area {
+    display: flex;
+}
+
+.faq {
+    position: absolute;
+    top: 2930px;
+    left: 270px;
+    bottom: 2525px;
+    right: 247px;
+    width: 1211px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #383838;
+    text-align: center;
+    font-family: Product Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.faq1 {
+    position: absolute;
+    top: 3075px;
+    left: 184px;
+    width: 1434px;
+    height: 124px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #10027e;
+    color: #fff;
+    font-family: Product Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40px 928px 40px 86px;
+}
+
+.svg5 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 1303px;
+}
+
+.faq2 {
+    position: absolute;
+    top: 3241px;
+    left: 184px;
+    width: 1434px;
+    height: 124px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #10027e;
+    color: #fff;
+    font-family: Product Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40px 714px 40px 86px;
+}
+
+.svg6 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 1303px;
+    top: 37px;
+}
+
+.faq3 {
+    position: absolute;
+    top: 3407px;
+    left: 184px;
+    width: 1434px;
+    height: 124px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #10027e;
+    color: #fff;
+    font-family: Product Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40px 458px 40px 86px;
+}
+
+.svg7 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 1303px;
+    top: 37px;
+}
+
+.see-all {
+    position: absolute;
+    top: 3650px;
+    left: 733px;
+    width: 447px;
+    height: 94px;
+    flex-shrink: 0;
+    border-radius: 13px;
+    background: #ff7e00;
+    color: #10027e;
+    text-align: center;
+    font-family: Product Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer {
+    display: flex;
+}
+
+.rectangle3 {
+    position: absolute;
+    top: 3975px;
+    right: 156px;
+    width: 1462px;
+    height: 497px;
+    flex-shrink: 0;
+    border-radius: 29px;
+    background: #ff7e00;
+    z-index: 1;
+}
+
+.person {
+    position: absolute;
+    top: 3860px;
+    left: 11px;
+    width: 864px;
+    height: 612px;
+    flex-shrink: 0;
+    border-radius: 53px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-color: lightgray;
+    background-color: white;
 }
