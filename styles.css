@@ -5,25 +5,29 @@
 }
 
 .container{
-    width: 100vw;
-    height: 100vh;
-    /* width: 1728px;
-    height: 5499px; */
+    width: 1728px;
+    height: 5499px;
     background: #FFF;
     overflow-x: hidden;
-    overflow-y: auto;
+
+ 
 }
 
-nav>img{
-    width: 285px;
+.logo{
+margin-top: 19px;
+margin-left: 55px;
+width: 285px;
 height: 83px;
 flex-shrink: 0;
+background: url(./images/KRACADEMY\ 3.jpg), lightgray 50% / cover no-repeat;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
 }
 
 nav{
     width:100%;
-    height: 15%;
-   
+    height:137px;
+    background-color: beige;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,12 +50,78 @@ nav{
 }
 
 #lb{
-    width: 117px;
+width: 117px;
 height: 28px;
 flex-shrink: 0;
 border: none;
 width: fit-content;
 }
+
+
 .rightnav{
     margin-right: 20px;
+    
+}
+main{
+    display: flex;
+    
+}
+.blue{
+width: 1740px;
+height: 594px;
+flex-shrink: 0;
+background: #10027E;
+position: relative;
+}
+.heroimg{
+   position: absolute;
+   top: 219px;
+   left: 730px;
+   right: -40px;
+   width: 1038px;
+   height: 523px;
+   flex-shrink: 0;
+background: url(./images/image\ 1.jpg), lightgray 50% / cover no-repeat;
+}
+.herotxt{
+position: absolute;
+top: 258px;
+left: 91px;
+width: 685px;
+height: 182px;
+flex-shrink: 0;
+color: #FF7E00;
+font-family: Product Sans;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.0;
+letter-spacing: -5.2px;
+
+
+}
+.white{
+    color: #FFF;
+font-family: Product Sans;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 1; 
+letter-spacing: -5.2px;
+}
+.para{
+    position: absolute;
+    top: 451px; 
+    left: 91px;
+    width: 706px;
+height: 75px;
+
+flex-shrink: 0;
+color: #FFF;
+font-family: Product Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 110.3%; /* 35.296px */
+letter-spacing: -0.64px;
 }
