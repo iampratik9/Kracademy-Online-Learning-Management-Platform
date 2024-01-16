@@ -11,6 +11,7 @@
     height: 5499px;
     background: #fff;
     overflow-x: hidden;
+    position: relative;
 }
 
 .logo {
@@ -583,12 +584,12 @@ border-style: none;
 
 
 .rect11{
-    
+    position: absolute;
     width: 1728px;
 height: 778px;
 flex-shrink: 0;
 background: #10027E;
-margin-top: 4721px;
+top: 4721px;
 
 }
 
